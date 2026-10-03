@@ -1,1 +1,25 @@
 Hari ini adalah hari pertama saya belajar memahami Git
+
+git --version
+// syntax untuk mengecek apakah sudah memiliki Git dan versi git
+
+git init
+// untuk mengaktifkan Git di folder tersebut
+* (Git akan menjawab: "Initialized empty Git repository...". Artinya, Git sekarang sudah mulai memata-matai folder ini).
+
+git status
+// cek status folder
+- jika warna file merah == Git tahu ada file baru atau perubahan, tetapi Git belum menyimpannya ke dalam mesin waktu.
+
+git add xxxx
+// memasukkan file ke antrean
+(Tips: Jika nanti Anda punya banyak file, Anda cukup mengetik `git add .` untuk memasukkan semua file sekaligus ke dalam antrean).
+
+
+git commit
+// kunci file tersebut dengan memberikan label/catatan agar Anda tidak bingung di masa depan
+/ git commit -m "membuat catatan pertama untuk hari satu"
+Kunci file tersebut dengan memberikan label/catatan agar Anda tidak bingung di masa depan
+Jika berhasil, Git akan memunculkan tulisan seperti 1 file changed, 1 insertion(+). Artinya, revisi pertama Anda sudah aman tersimpan di mesin waktu Git lokal komputer Anda. Anda bisa menghapus atau mengubah isi file tersebut, dan Git akan selalu bisa mengembalikannya ke versi ini.
+
+
